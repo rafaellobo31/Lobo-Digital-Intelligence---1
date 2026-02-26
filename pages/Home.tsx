@@ -94,8 +94,12 @@ const Home: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-tr from-brand-blue/20 to-brand-purple/20 blur-3xl rounded-full"></div>
               <div className="relative gradient-border p-8 glass overflow-hidden">
                 <div className="flex items-center gap-4 mb-8">
-                  <div className="w-12 h-12 rounded-full bg-brand-blue/20 flex items-center justify-center text-brand-blue">
-                    <Activity className="w-6 h-6" />
+                  <div className="w-12 h-12 flex items-center justify-center">
+                    <img 
+                      src="https://drive.google.com/thumbnail?id=1YCe7si9gSiuBdcgDzLdTz7CBNeSrHPtb&sz=w500" 
+                      alt="Lobo Digital Logo" 
+                      className="w-full h-full object-contain"
+                    />
                   </div>
                   <div>
                     <h4 className="font-bold text-white uppercase tracking-wider text-sm">Elevator Pitch</h4>

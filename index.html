@@ -17,9 +17,9 @@
               brand: {
                 dark: '#020617',
                 navy: '#0f172a',
-                blue: '#2563eb',
-                purple: '#7c3aed',
-                indigo: '#4f46e5'
+                blue: '#00d2ff',
+                purple: '#0088cc',
+                indigo: '#0f172a'
               }
             },
             fontFamily: {
@@ -42,7 +42,7 @@
         border: 1px solid rgba(255, 255, 255, 0.05);
       }
       .text-gradient {
-        background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+        background: linear-gradient(135deg, #00d2ff 0%, #0088cc 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
@@ -56,7 +56,7 @@
         inset: -1px;
         border-radius: inherit;
         padding: 1px;
-        background: linear-gradient(135deg, rgba(37, 99, 235, 0.5), rgba(124, 58, 237, 0.5));
+        background: linear-gradient(135deg, rgba(0, 210, 255, 0.5), rgba(0, 136, 204, 0.5));
         -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
         -webkit-mask-composite: xor;
         mask-composite: exclude;
@@ -73,10 +73,12 @@
   }
 }
 </script>
+<link rel="stylesheet" href="/index.css">
 </head>
   <body>
     <div id="root"></div>
     <!-- A tag abaixo é essencial para o Vite/Vercel carregar seu código TypeScript -->
     <script type="module" src="./index.tsx"></script>
-  </body>
+  <script type="module" src="/index.tsx"></script>
+</body>
 </html>

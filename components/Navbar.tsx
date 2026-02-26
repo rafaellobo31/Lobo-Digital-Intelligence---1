@@ -26,8 +26,12 @@ const Navbar: React.FC = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'glass py-3' : 'bg-transparent py-5'}`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 bg-gradient-to-br from-brand-blue to-brand-purple rounded-xl flex items-center justify-center shadow-lg shadow-brand-blue/20">
-            <Activity className="text-white w-6 h-6 group-hover:scale-110 transition-transform" />
+          <div className="w-10 h-10 flex items-center justify-center transition-transform group-hover:scale-110">
+            <img 
+              src="https://drive.google.com/thumbnail?id=1YCe7si9gSiuBdcgDzLdTz7CBNeSrHPtb&sz=w500" 
+              alt="Lobo Digital Logo" 
+              className="w-full h-full object-contain"
+            />
           </div>
           <div className="flex flex-col leading-none">
             <span className="text-xl font-display font-extrabold tracking-tight text-white uppercase">Lobo</span>

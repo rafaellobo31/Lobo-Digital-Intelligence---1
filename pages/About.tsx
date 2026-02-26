@@ -27,13 +27,13 @@ const About: React.FC = () => {
             </div>
           </div>
           <div className="relative">
-            <div className="aspect-square rounded-[3rem] overflow-hidden gradient-border relative glass">
+            <div className="aspect-square rounded-[3rem] overflow-hidden gradient-border relative glass flex items-center justify-center p-12">
               <img 
-                src="https://picsum.photos/seed/tech-office/800/800" 
-                alt="Nosso ambiente de trabalho" 
-                className="w-full h-full object-cover opacity-60 grayscale hover:grayscale-0 transition-all duration-700"
+                src="https://drive.google.com/thumbnail?id=1YCe7si9gSiuBdcgDzLdTz7CBNeSrHPtb&sz=1000" 
+                alt="Lobo Digital Intelligence Logo" 
+                className="w-full h-full object-contain transition-all duration-700"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-brand-dark to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/40 to-transparent pointer-events-none"></div>
               <div className="absolute bottom-10 left-10">
                 <div className="text-4xl font-bold text-white mb-1">05+</div>
                 <div className="text-brand-blue text-sm font-bold tracking-widest uppercase">Anos de Expertise</div>

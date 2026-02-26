@@ -10,9 +10,13 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           {/* Logo & Pitch */}
           <div className="md:col-span-1">
-            <Link to="/" className="flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 bg-gradient-to-br from-brand-blue to-brand-purple rounded-lg flex items-center justify-center">
-                <Activity className="text-white w-5 h-5" />
+            <Link to="/" className="flex items-center gap-2 mb-6 group">
+              <div className="w-8 h-8 flex items-center justify-center transition-transform group-hover:scale-110">
+                <img 
+                  src="https://drive.google.com/thumbnail?id=1YCe7si9gSiuBdcgDzLdTz7CBNeSrHPtb&sz=w500" 
+                  alt="Lobo Digital Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               <span className="text-lg font-display font-extrabold tracking-tight text-white">LOBO DIGITAL</span>
             </Link>
@@ -69,7 +73,7 @@ const Footer: React.FC = () => {
 
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-xs">
-            © 2024 Lobo Digital Intelligence. Todos os direitos reservados.
+            © 2026 Lobo Digital Intelligence. Todos os direitos reservados.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-slate-500 hover:text-white text-xs">Privacidade</a>
